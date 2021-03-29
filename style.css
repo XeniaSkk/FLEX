@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url('images/bgimg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
+}
+
+.center-content {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 5em;
+}
+
+h1, .header-text {
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.header-text {
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.button {
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#first-text {
+    background-color: wheat;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+#second-text {
+    background-color: wheat;
+    color: black;
+    padding: 3em 10em 3em 10em;
+    text-align: center;
+}
+
+h2 { padding-bottom: 1em; }
+
+.text-wrap {
+    column-count: 2;
+    padding: 1em 20em 1em 20em;
+    text-align: justify;
+    column-gap: 3em;
+    column-fill: initial;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.card {
+    flex: 0 0 300px;
+    position: relative;
+    margin: 5em 1em 5em 1em;
+    border: 1px solid black;
+    background-color: white;
+}
+.card:hover { box-shadow: 10px 8px 16px 10px rgba(255,255,255,0.5); }
+
+.card img { max-width: 100%; }
+
+.card .text > p, h3 {
+    margin: 2em 2em 2em 2em;
+    text-align: center;
+}
+
+.list-first {
+    background-color:#0099cc;
+    text-align: center;
+    padding: 1em 5em 5em 5em;
+}
+
+.list-second {
+    background-color:#4d4d4d;
+    text-align: center;
+    padding: 1em 5em 5em 5em;
+}
+
+#third-text {
+    color: white;
+    display: flex;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 1em;
+}

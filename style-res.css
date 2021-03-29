@@ -1,0 +1,18 @@
+@media(max-width: 1200px){
+    .text-wrap  {
+        column-count: 1;
+        padding: 10px;      
+    }
+
+    #second-text {
+        padding: 10px;
+    }
+
+    .center-content {
+        padding: 10px;
+    }
+
+    #third-text{
+        display: block;
+    }
+}
